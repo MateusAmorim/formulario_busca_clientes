@@ -1,9 +1,9 @@
 <?php
 // Conectar ao banco de dados MySQL (substitua as informações conforme necessário)
-$servername = "localhost:3306";
-$username = "root";
+$servername = "";
+$username = "";
 $password = "";
-$dbname = "empresa";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
