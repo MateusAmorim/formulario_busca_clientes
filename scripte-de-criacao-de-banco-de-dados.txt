@@ -1,0 +1,33 @@
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telefone VARCHAR(20),
+    endereco TEXT,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+INSERT INTO clientes (nome, email, telefone, endereco) VALUES
+('Cliente1', 'cliente1@email.com', '123456789', 'Rua A, 123'),
+('Cliente2', 'cliente2@email.com', '987654321', 'Rua B, 456'),
+('Cliente3', 'cliente3@email.com', '456789123', 'Rua C, 789'),
+('Cliente4', 'cliente4@email.com', '789123456', 'Rua D, 1011'),
+('Cliente5', 'cliente5@email.com', '321654987', 'Rua E, 1213'),
+('Cliente6', 'cliente6@email.com', '111222333', 'Rua F, 1415'),
+('Cliente7', 'cliente7@email.com', '444555666', 'Rua G, 1617'),
+('Cliente8', 'cliente8@email.com', '777888999', 'Rua H, 1819'),
+('Cliente9', 'cliente9@email.com', '222333444', 'Rua I, 2021'),
+('Cliente10', 'cliente10@email.com', '555666777', 'Rua J, 2223'),
+('Cliente11', 'cliente11@email.com', '888999000', 'Rua K, 2425'),
+('Cliente12', 'cliente12@email.com', '999000111', 'Rua L, 2627'),
+('Cliente13', 'cliente13@email.com', '333444555', 'Rua M, 2829'),
+('Cliente14', 'cliente14@email.com', '000111222', 'Rua N, 3031'),
+('Cliente15', 'cliente15@email.com', '666777888', 'Rua O, 3233'),
+('Cliente16', 'cliente16@email.com', '555444333', 'Rua P, 3435'),
+('Cliente17', 'cliente17@email.com', '222111000', 'Rua Q, 3637'),
+('Cliente18', 'cliente18@email.com', '777888999', 'Rua R, 3839'),
+('Cliente19', 'cliente19@email.com', '999888777', 'Rua S, 4041'),
+('Cliente20', 'cliente20@email.com', '444333222', 'Rua T, 4243');
+
+
